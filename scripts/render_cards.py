@@ -277,7 +277,7 @@ def journey() -> str:
         ("2026", "UniQdata · UniQLab", "YAKSON device · ACK 2026"),
     ]
     body = f'<text x="40" y="44" class="w8 a rise" style="font-size:20px;{d(.05)}">Things I built</text>'
-    body += f'<text x="840" y="44" text-anchor="end" class="w4 muted a fade" style="font-size:13px;{d(.2)}">solo founder, building the product myself</text>'
+    body += f'<text x="840" y="44" text-anchor="end" class="w4 muted a fade" style="font-size:13px;{d(.2)}">founder, building the product myself</text>'
     y = 100
     body += (
         f'<line x1="60" y1="{y}" x2="820" y2="{y}" data-s="line" stroke-width="3" '
